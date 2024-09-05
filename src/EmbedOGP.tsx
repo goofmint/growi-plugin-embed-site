@@ -16,7 +16,6 @@ export const EmbedOGP = (A: React.FunctionComponent<any>): React.FunctionCompone
     if (children === null || children[0] !== 'OGP') {
       return (<A href={href} {...props}>{children}</A>);
     }
-    console.log(children);
     return (
       <Async promiseFn={getOGP} href={href}>
         {({ data, error, isPending }) => {

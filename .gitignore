@@ -33,3 +33,4 @@ yarn-error.log*
 .idea
 *.orig
 *.code-workspace
+node_modules
