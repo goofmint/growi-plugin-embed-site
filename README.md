@@ -1,19 +1,16 @@
-# growi-plugin-embed-youtube
+# growi-plugin-embed-site
 
-## Support URL
+## Usage
 
-- https://www.youtube.com/watch?v=XXXXXXXXXXX
+If you use a link title with 'OGP', the plugin changes the link to an embed like below.
 
-## View
+![](./image.jpg)
 
-Embed (iframe) YouTube URL. It's responsive.
+## Format
 
-![screenshot](https://github.com/goofmint/growi-plugin-embed-youtube/assets/5709/e4374e27-c9ff-4d5f-aa61-e12d22db0044)
-
-
-## Notice
-
-If you want to ignore the embed, you can use the URL as `youtu.be` instead of `youtube.com`.
+```
+[OGP](https://ogp.me/)
+```
 
 ## License
 
